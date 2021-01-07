@@ -5,6 +5,6 @@
         "armv7": "homeassistant/armv7-base-ubuntu:latest"
     },
     "args": {
-      "JACKETT_RELEASE" : "v0.12.999"
+      "JACKETT_RELEASE" : "v0.17.207"
     }
 }
