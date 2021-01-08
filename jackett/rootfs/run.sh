@@ -46,7 +46,7 @@ sed -i "s#%%basepath%%#${ingress_entry}#g" /config/Jackett/ServerConfig.json || 
 
 cd /opt/Jackett || bashio::exit.nok "setup gone wrong!"
 
-exec ./jackett --NoUpdates &
+exec ./jackett &
 WAIT_PIDS+=($!)
 
 function stop_addon() {
